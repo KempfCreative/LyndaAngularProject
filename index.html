@@ -7,6 +7,7 @@
         <script type="text/javascript" src="lib/angular/angular.min.js"></script>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="js/controllers.js"></script>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body>
@@ -14,15 +15,5 @@
             <h1>{{author.name}}</h1>
             <p>{{ author.title + ', ' + author.company }}</p>
         </div>
-        <script>
-            function MyController($scope) {
-                $scope.author = {
-                    'name' : 'Jonathan Kempf',
-                    'title' : 'UI/UX Developer/Designer',
-                    'company' : 'vzw.com' 
-                }    
-            }
-            
-        </script>
     </body>
 </html>
