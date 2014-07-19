@@ -1,0 +1,21 @@
+{
+  "name": "AngularApp1",
+  "version": "0.0.2",
+  "description": "An Angular project following the Lynda.com Jumpstart with Angular JS",
+  "dependencies": {
+    "dummy-json": "~0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KempfCreative/LyndaAngularProject.git"
+  },
+  "author": "Jonathan Kempf",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/KempfCreative/LyndaAngularProject/issues"
+  }
+}
