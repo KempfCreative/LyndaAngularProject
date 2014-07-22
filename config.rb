@@ -3,6 +3,7 @@
 require "compass"
 gem "modular-scale"
 require "modular-scale"
+require "compass-normalize"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
