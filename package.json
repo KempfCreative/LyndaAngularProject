@@ -1,6 +1,6 @@
 {
   "name": "AngularApp1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An Angular project following the Lynda.com Up and Running with Angular JS",
   "dependencies": {
     "dummy-json": "~0.0.2"
