@@ -14,11 +14,11 @@
     <body>
         <div class="main" ng-controller = "MyController">
                <ul class="developerList">
-                   <li class="developer cf" ng-repeat="item in developers">
+                   <li class="developer cf" ng-repeat="item in developers | limitTo: 5">
                         <!-- This images section needs some help -->
                        <img ng-src="images/default.jpg" alt="this needs images from another repeat or something"/>
                        <div class="info">
-                           <h2>{{item.firstName}} {{item.lastName}}</h2>
+                           <h2>{{item.firstName | uppercase}} {{item.lastName}}</h2>
                            <h3>{{item.email}}</h3>
                        </div>
                    </li>
